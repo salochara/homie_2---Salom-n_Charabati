@@ -19,7 +19,7 @@ Solamente creé ese endpoint con dicha funcionalidad.
  
 #### Para las pruebas `Rspec al modelo User`: 
   
-- Hice validaciones de los atributos que son necesarios para crear un usuario validando su presencia.
+- Hice validaciones de los atributos validando su presencia. Con esto, se asegura de que se pueda crear un nuevo usuario con lo que es requerido. 
 
 #### Para las pruebas `Rspec al endpoint GET /users/:id/welcome`, hice Rspec de tipo `request`: 
 
