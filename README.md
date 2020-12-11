@@ -2,7 +2,7 @@
 
 Prueba Técnica #2 Homie 
 
-###Instrucciones
+## Instrucciones
 API  
 Crear el modelo User, y su controlador.  
 Donde el endpoint GET /users/:id/welcome en formato json
