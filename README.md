@@ -11,16 +11,17 @@ Hacerle pruebas Rspec al controlador y modelo.
 Subir el código en GitHub y compartir el link del repositorio.
 
 
-#### Notas
+### Notas
 Generé la aplicación con `rails new homie_api --api -T` creando una aplicación API y sin el directorio de /tests que viene por default.
   
 Con esto, hice una API simple, en donde el endpoint `GET /users/:id/welcome` retorna el primer registro de la BD.
+Solamente creé ese endpoint con dicha funcionalidad.
  
-Para las pruebas `Rspec al modelo User`: 
+#### Para las pruebas `Rspec al modelo User`: 
   
 - Hice validaciones de los atributos que son necesarios para crear un usuario validando su presencia.
 
-Para las pruebas `Rspec al endpoint GET /users/:id/welcome`, hice Rspec de tipo `request`: 
+#### Para las pruebas `Rspec al endpoint GET /users/:id/welcome`, hice Rspec de tipo `request`: 
 
 - Con esto, hice una prueba al endpoint para confirmar si responde con el código `http 200`.
 - La otra prueba fue para verificar que efectivamente, regrese el primer registro de la BD. Para lograr esto, guardé en la BD 3 registros con distintos valores y comparo la respuesta con el primer regsitro guardado.
